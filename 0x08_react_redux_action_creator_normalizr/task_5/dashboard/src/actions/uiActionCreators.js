@@ -8,21 +8,24 @@ import {
 export const login = (email, password) => {
   return {
     type: LOGIN,
-    user: {
-      email,
-      password,
-    },
+    user: { email, password },
   };
 };
 
 export const logout = () => {
-  return { type: LOGOUT };
+  return {
+    type: LOGOUT,
+  };
 };
 
 export const displayNotificationDrawer = () => {
-  return { type: DISPLAY_NOTIFICATION_DRAWER };
+  return {
+    type: DISPLAY_NOTIFICATION_DRAWER,
+  };
 };
 
 export const hideNotificationDrawer = () => {
-  return { type: HIDE_NOTIFICATION_DRAWER };
+  return {
+    type: HIDE_NOTIFICATION_DRAWER,
+  };
 };

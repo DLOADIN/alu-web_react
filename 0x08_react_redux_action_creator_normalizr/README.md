@@ -1,1 +1,1 @@
-#react_reducer_normalizer
+# 0x08. React Redux action creator+normalizr
